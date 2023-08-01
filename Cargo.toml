@@ -1,0 +1,15 @@
+[package]
+name = "watermark-killer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.20.0", features = ["csr"] }
+gloo = "0.9"
+js-sys = "0.3"
+web-sys = { version = "0.3", features = ["DataTransfer"] }
+base64 = "0.21.2"
+image = "0.24.6"
+rand = "0.8.5"
